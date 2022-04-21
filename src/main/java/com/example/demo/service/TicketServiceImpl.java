@@ -24,7 +24,7 @@ TicketRepository repo;
 	public Ticket deleteTicket(int tid) {
 		Ticket t=repo.getById(tid);
 		repo.deleteById(tid);
-		return t;
+		//return t;
 	}
 
 	@Override
